@@ -1,25 +1,29 @@
 package lab7;
 
-class  vehicle{
-    void num(){
+class vehicle {
+    void num() {
         System.out.println("vehicle class");
     }
 }
-class car extends vehicle{
-    protected void num(){
+
+class car extends vehicle {
+    protected void num() {
         System.out.println("car class");
     }
 }
-class bike extends vehicle{
-    public void num(){
+
+class bike extends vehicle {
+    public void num() {
         System.out.println("bike class");
     }
 }
-class truck extends vehicle{
-    void num(){
+
+class truck extends vehicle {
+    void num() {
         System.out.println("truck class");
     }
 }
+
 public class q9 {
     public static void main(String args[]) {
         vehicle obj;

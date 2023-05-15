@@ -22,7 +22,7 @@ class Student {
 public class q6 {
     public static void main(String args[]) {
         Student s2 = new Student();
-        Student s1 = new Student(1, "abc");
+        Student s1 = new Student(1, "EndSemPractice.abc");
         s1.disp();
     }
 }

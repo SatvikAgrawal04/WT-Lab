@@ -1,13 +1,13 @@
-package Geometry;
+package EndSemPractice.Geometry;
 
 public class circle {
     double rad;
 
-    void setRadius(double a) {
+    public void setRadius(double a) {
         rad = a;
     }
 
-    double getRadius() {
+    public double getRadius() {
         return rad;
     }
 }
